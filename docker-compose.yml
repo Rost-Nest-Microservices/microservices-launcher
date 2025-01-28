@@ -77,3 +77,4 @@ services:
       - NATS_SERVERS=nats://nats-server:4222
       - rost
       - DATABASE_URL=${AUTH_DATABASE_URL}
+      - JWT_SECRET=${JWT_SECRET}
